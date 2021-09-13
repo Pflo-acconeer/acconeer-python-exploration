@@ -11,6 +11,8 @@ A radar sensor can by simple reconfiguration have multiple functionalities. A ra
    :align: center
 
    The A1 radar sensor can be configured to measure only very close to the sensor, thereby acting as a touch button behind solid plastic.
+   
+Depending on the sensor model, the inherent noise level might cause a large amount of false detections. This can be amended by a combination of adjusting the threshold and decreasing the "Signal time constant" down to very small values (eg. 0.02-0.03).
 
 Detailed description
 --------------------
